@@ -1,19 +1,20 @@
-"use strict";
+'use strict';
 
-// const calcAge = function (birthYear) {
-//   return 2037 - birthYear;
-// };
+function looger() {
+  console.log('My name is Monties');
+}
 
-// const yearsUntilRetirement = function (birthYear, firstName) {
-//   const age = calcAge(birthYear);
-//   const retirement = 65 - age;
+/// calling / running /invoking function
+logger();
+logger();
+logger();
 
-//   if (retirement > 0) {
-//     return retirement;
-//   } else {
-//     return -1;
-//   }
-// };
+function fruitProcessor(apples, oranges) {
+  console.log(apples, oranges);
+  const juice = 'Juice with ${apples} apples and ${oranges} oranges.';
+  return juice;
+}
 
-// console.log(yearsUntilRetirement(1991, "Jonas"));
-// console.log(yearsUntilRetirement(1950, "Mike"));
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
+console.log(fruitProcessor(5, 1));
