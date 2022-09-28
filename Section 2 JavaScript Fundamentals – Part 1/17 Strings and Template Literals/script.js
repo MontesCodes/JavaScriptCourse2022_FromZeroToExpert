@@ -117,4 +117,14 @@ const Montes =
   "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
 console.log(Montes);
 
-const montesNew = `I'm ${firstName}`;
+// Template strings
+const montesNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(montesNew);
+
+console.log(`just a regular string......`);
+
+console.log('String with \n multiple \n lines');
+
+console.log(`String with 
+multiple
+lines`);
