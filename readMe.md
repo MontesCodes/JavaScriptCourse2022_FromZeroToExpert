@@ -1,4 +1,4 @@
-# Project Name
+# The complete JavaScript Course 2022 From Zero To Expert
 
 <!-- > Outline a brief description of your project. -->
 
